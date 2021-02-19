@@ -9,7 +9,7 @@
 # Script License      : Apache License, Version 2 or later
 #
 # ----------------------------------------------------------------------------
-dist: trusty
+dist: focal
 
 language: java
 
