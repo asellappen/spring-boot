@@ -20,3 +20,6 @@ os:
 arch:
     - amd64
     - ppc64le
+script :
+    - travis_wait 30 ./gradlew build
+    
