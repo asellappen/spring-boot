@@ -23,4 +23,5 @@ arch:
 script :
     - travis_wait 30 ./gradlew build
     - travis_wait 30 ./gradlew clean test
+    - ./gradlew tasks
     
