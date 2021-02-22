@@ -23,6 +23,6 @@ arch:
 script :
     - travis_wait 30 ./gradlew build
     - ./gradlew tasks
-     -./gradlew checks
+    - ./gradlew checks
     - travis_wait 30 ./gradlew clean test
     - ./gradlew intTest
