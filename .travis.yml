@@ -3,7 +3,7 @@
 # Package             : spring-boot
 # Source Repo         : https://github.com/spring-projects/spring-boot
 # Travis Job Link     : https://travis-ci.com/github/asellappen/spring-boot/
-# Created travis.yml  : No
+# Created travis.yml  : Yes
 # Maintainer          : Arumugam N S <asellappen@yahoo.com> / Priya Seth<sethp@us.ibm.com>
 #
 # Script License      : Apache License, Version 2 or later
@@ -14,6 +14,9 @@ dist: focal
 language: java
 
 jdk:
+  - openjdk8
+  - openjdk11
+  - openjdk15
   - oraclejdk11
 os:
   - linux
