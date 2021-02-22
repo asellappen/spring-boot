@@ -14,15 +14,13 @@ dist: focal
 language: java
 
 jdk:
-  - openjdk8
   - openjdk11
-  - openjdk15
   - oraclejdk11
 os:
   - linux
 arch:
-    - amd64
-    - ppc64le
+  - amd64
+  - ppc64le
 script :
     - travis_wait 30 ./gradlew build
     - ./gradlew checks
