@@ -9,7 +9,7 @@
 # Script License      : Apache License, Version 2 or later
 #
 # ----------------------------------------------------------------------------
-dist: focal
+dist: bionic
 
 language: java
 
