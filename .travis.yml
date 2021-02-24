@@ -13,9 +13,9 @@ dist: focal
 
 language: java
 
-jdk:
-  - openjdk11
-  - oraclejdk11
+#jdk:
+ # - openjdk11
+ # - oraclejdk11
 os:
   - linux
 arch:
@@ -23,6 +23,5 @@ arch:
   - ppc64le
 script :
     - travis_wait 30 ./gradlew build
-    - ./gradlew checks
     - travis_wait 30 ./gradlew clean test
     - ./gradlew intTest
