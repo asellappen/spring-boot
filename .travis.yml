@@ -9,13 +9,13 @@
 # Script License      : Apache License, Version 2 or later
 #
 # ----------------------------------------------------------------------------
-dist: focal
+dist: bionic
 
 language: java
 
 jdk:
    - openjdk11
- # - oraclejdk11
+   - openjdk8
 os:
   - linux
 arch:
